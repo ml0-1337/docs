@@ -125,7 +125,7 @@
     ]
   },
   "redirects": [
-    { "source": "/index", "destination": "/jp/index" },
+    { "source": "/index", "destination": "/jp" },
     { "source": "/quickstart", "destination": "/jp/quickstart" },
     { "source": "/development", "destination": "/jp/development" },
     { "source": "/essentials/settings", "destination": "/jp/essentials/settings" },
