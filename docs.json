@@ -8,81 +8,6 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -102,15 +27,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
@@ -118,5 +43,104 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "jp",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "jp/index",
+                  "jp/quickstart",
+                  "jp/development"
+                ]
+              },
+              {
+                "group": "Customization",
+                "pages": [
+                  "jp/essentials/settings",
+                  "jp/essentials/navigation"
+                ]
+              },
+              {
+                "group": "Writing content",
+                "pages": [
+                  "jp/essentials/markdown",
+                  "jp/essentials/code",
+                  "jp/essentials/images",
+                  "jp/essentials/reusable-snippets"
+                ]
+              },
+              {
+                "group": "AI tools",
+                "pages": [
+                  "jp/ai-tools/cursor",
+                  "jp/ai-tools/claude-code",
+                  "jp/ai-tools/windsurf"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API reference",
+            "groups": [
+              {
+                "group": "API documentation",
+                "pages": [
+                  "jp/api-reference/introduction"
+                ]
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": [
+                  "jp/api-reference/endpoint/get",
+                  "jp/api-reference/endpoint/create",
+                  "jp/api-reference/endpoint/delete",
+                  "jp/api-reference/endpoint/webhook"
+                ]
+              }
+            ]
+          }
+        ],
+        "global": {
+          "anchors": [
+            {
+              "anchor": "Documentation",
+              "href": "https://mintlify.com/docs",
+              "icon": "book-open-cover"
+            },
+            {
+              "anchor": "Blog",
+              "href": "https://mintlify.com/blog",
+              "icon": "newspaper"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "redirects": [
+    { "source": "/index", "destination": "/jp/index" },
+    { "source": "/quickstart", "destination": "/jp/quickstart" },
+    { "source": "/development", "destination": "/jp/development" },
+    { "source": "/essentials/settings", "destination": "/jp/essentials/settings" },
+    { "source": "/essentials/navigation", "destination": "/jp/essentials/navigation" },
+    { "source": "/essentials/markdown", "destination": "/jp/essentials/markdown" },
+    { "source": "/essentials/code", "destination": "/jp/essentials/code" },
+    { "source": "/essentials/images", "destination": "/jp/essentials/images" },
+    { "source": "/essentials/reusable-snippets", "destination": "/jp/essentials/reusable-snippets" },
+    { "source": "/ai-tools/cursor", "destination": "/jp/ai-tools/cursor" },
+    { "source": "/ai-tools/claude-code", "destination": "/jp/ai-tools/claude-code" },
+    { "source": "/ai-tools/windsurf", "destination": "/jp/ai-tools/windsurf" },
+    { "source": "/api-reference/introduction", "destination": "/jp/api-reference/introduction" },
+    { "source": "/api-reference/endpoint/get", "destination": "/jp/api-reference/endpoint/get" },
+    { "source": "/api-reference/endpoint/create", "destination": "/jp/api-reference/endpoint/create" },
+    { "source": "/api-reference/endpoint/delete", "destination": "/jp/api-reference/endpoint/delete" },
+    { "source": "/api-reference/endpoint/webhook", "destination": "/jp/api-reference/endpoint/webhook" }
+  ]
 }
