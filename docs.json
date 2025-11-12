@@ -58,10 +58,19 @@
               },
               {
                 "group": "ご利用開始ガイド",
-                "hidden": true,
                 "pages": [
                   "jp/index",
                   "jp/quickstart",
+                  "jp/getting-started/admin-invite",
+                  "jp/getting-started/member-invite"
+                ]
+              },
+              {
+                "group": "ご利用開始ガイド（法人向け）",
+                "hidden": true,
+                "pages": [
+                  "jp/getting-started/enterprise-trial",
+                  "jp/getting-started/convert-to-paid",
                   "jp/getting-started/admin-invite",
                   "jp/getting-started/member-invite"
                 ]
