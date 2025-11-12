@@ -45,6 +45,18 @@
             "tab": "ガイド",
             "groups": [
               {
+                "group": "概要・基本情報",
+                "hidden": true,
+                "pages": [
+                  "jp/index",
+                  "jp/overview",
+                  "jp/use-cases",
+                  "jp/plans-pricing",
+                  "jp/system-requirements",
+                  "jp/support-contact"
+                ]
+              },
+              {
                 "group": "ご利用開始ガイド",
                 "pages": [
                   "jp/index",
@@ -54,27 +66,167 @@
                 ]
               },
               {
-                "group": "Customization",
+                "group": "チーム管理",
                 "pages": [
-                  "jp/essentials/settings",
-                  "jp/essentials/navigation"
+                  "jp/team/roles-permissions",
+                  "jp/team/invite-remove",
+                  "jp/team/pending-invitations",
+                  "jp/team/team-settings",
+                  "jp/team/team-folders",
+                  "jp/team/usage-limits",
+                  "jp/team/sort-filter-members"
                 ]
               },
               {
-                "group": "Writing content",
+                "group": "音声・動画の文字起こし方法",
                 "pages": [
-                  "jp/essentials/markdown",
-                  "jp/essentials/code",
-                  "jp/essentials/images",
-                  "jp/essentials/reusable-snippets"
+                  "jp/transcription/upload-web",
+                  "jp/transcription/upload-mobile",
+                  "jp/transcription/bulk-upload",
+                  "jp/transcription/live-mic-web",
+                  "jp/transcription/live-mic-mobile",
+                  "jp/transcription/real-time-translation-beta"
                 ]
               },
               {
-                "group": "AI tools",
+                "group": "要約作成・AI支援機能",
                 "pages": [
-                  "jp/ai-tools/cursor",
-                  "jp/ai-tools/claude-code",
-                  "jp/ai-tools/windsurf"
+                  "jp/ai/auto-summary",
+                  "jp/ai/ai-editor-customize",
+                  "jp/ai/prompt-examples",
+                  "jp/ai/ai-chat-assistant",
+                  "jp/ai/summary-translation-beta",
+                  "jp/ai/custom-summary-templates"
+                ]
+              },
+              {
+                "group": "文字起こし結果の編集",
+                "pages": [
+                  "jp/editing/edit-transcript",
+                  "jp/editing/find-replace",
+                  "jp/editing/shortcuts",
+                  "jp/editing/attach-files",
+                  "jp/editing/bulk-speaker-labels",
+                  "jp/editing/speaker-id-auto",
+                  "jp/editing/speaker-id-voice-profiles",
+                  "jp/editing/add-to-dictionary",
+                  "jp/editing/highlight-key-points"
+                ]
+              },
+              {
+                "group": "文字起こし結果の整理・管理",
+                "pages": [
+                  "jp/management/playback",
+                  "jp/management/play-from-timestamp",
+                  "jp/management/delete-transcripts",
+                  "jp/management/search-notes",
+                  "jp/management/tags",
+                  "jp/management/team-folders",
+                  "jp/management/default-save-folder",
+                  "jp/management/bulk-move-delete",
+                  "jp/management/pre-meeting-note",
+                  "jp/management/revision-history"
+                ]
+              },
+              {
+                "group": "共有とコラボレーション",
+                "pages": [
+                  "jp/sharing/share-note",
+                  "jp/sharing/download-data",
+                  "jp/sharing/collab-editing",
+                  "jp/sharing/request-review",
+                  "jp/sharing/access-requests"
+                ]
+              },
+              {
+                "group": "オンライン会議連携・録画Bot",
+                "pages": [
+                  "jp/meetings/calendar-connection",
+                  "jp/meetings/outlook-admin-consent",
+                  "jp/meetings/rimo-bot-overview",
+                  "jp/meetings/teams-settings",
+                  "jp/meetings/zoom-settings",
+                  "jp/meetings/zoom-webinars",
+                  "jp/meetings/auto-summary-notifications",
+                  "jp/meetings/multiple-bots",
+                  "jp/meetings/upload-past-teams",
+                  "jp/meetings/upload-past-zoom",
+                  "jp/meetings/upload-past-meet"
+                ]
+              },
+              {
+                "group": "アカウント設定・管理者機能",
+                "pages": [
+                  "jp/admin/usage-details",
+                  "jp/admin/audit-logs",
+                  "jp/admin/custom-dictionary",
+                  "jp/admin/transcription-languages",
+                  "jp/admin/plan-check",
+                  "jp/admin/profile",
+                  "jp/admin/social-login",
+                  "jp/admin/notifications"
+                ]
+              },
+              {
+                "group": "セキュリティとアクセス管理",
+                "pages": [
+                  "jp/security/overview",
+                  "jp/security/advanced-options-overview",
+                  "jp/security/advanced-options-config",
+                  "jp/security/disable-ai-features",
+                  "jp/security/restricted-network",
+                  "jp/security/saml-hennge",
+                  "jp/security/saml-gmo-trust",
+                  "jp/security/microsoft-entra-sso",
+                  "jp/security/entra-provisioning"
+                ]
+              },
+              {
+                "group": "活用ガイド",
+                "pages": [
+                  "jp/guides/finalize-ai-minutes",
+                  "jp/guides/three-ways-minutes",
+                  "jp/guides/custom-template-prompts",
+                  "jp/guides/schedule-integration",
+                  "jp/guides/admin-adoption"
+                ]
+              },
+              {
+                "group": "よくある質問",
+                "pages": [
+                  "jp/faq/cannot-login",
+                  "jp/faq/improve-accuracy",
+                  "jp/faq/process-stuck",
+                  "jp/faq/billing-timing",
+                  "jp/faq/limits",
+                  "jp/faq/refunds",
+                  "jp/faq/iphone-voice-memo",
+                  "jp/faq/multiple-accounts",
+                  "jp/faq/credit-card"
+                ]
+              },
+              {
+                "group": "リリースノート",
+                "pages": [
+                  "jp/changelog/2025",
+                  "jp/changelog/2024",
+                  "jp/changelog/2023"
+                ]
+              },
+              {
+                "group": "Rimo Interviewer（ベータ版）",
+                "pages": [
+                  "jp/interviewer/create",
+                  "jp/interviewer/answer",
+                  "jp/interviewer/section-settings",
+                  "jp/interviewer/in-call-options",
+                  "jp/interviewer/manage-articles",
+                  "jp/interviewer/manage-structures",
+                  "jp/interviewer/split-fields",
+                  "jp/interviewer/ai-follow-up",
+                  "jp/interviewer/switch-role",
+                  "jp/interviewer/prompt-callcenter",
+                  "jp/interviewer/prompt-casual-interview"
                 ]
               }
             ]
