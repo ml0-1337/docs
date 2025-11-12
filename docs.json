@@ -58,6 +58,7 @@
               },
               {
                 "group": "ご利用開始ガイド",
+                "hidden": true,
                 "pages": [
                   "jp/index",
                   "jp/quickstart",
@@ -67,6 +68,7 @@
               },
               {
                 "group": "チーム管理",
+                "hidden": true,
                 "pages": [
                   "jp/team/roles-permissions",
                   "jp/team/invite-remove",
@@ -79,6 +81,7 @@
               },
               {
                 "group": "音声・動画の文字起こし方法",
+                "hidden": true,
                 "pages": [
                   "jp/transcription/upload-web",
                   "jp/transcription/upload-mobile",
@@ -90,6 +93,7 @@
               },
               {
                 "group": "要約作成・AI支援機能",
+                "hidden": true,
                 "pages": [
                   "jp/ai/auto-summary",
                   "jp/ai/ai-editor-customize",
@@ -101,6 +105,7 @@
               },
               {
                 "group": "文字起こし結果の編集",
+                "hidden": true,
                 "pages": [
                   "jp/editing/edit-transcript",
                   "jp/editing/find-replace",
@@ -115,6 +120,7 @@
               },
               {
                 "group": "文字起こし結果の整理・管理",
+                "hidden": true,
                 "pages": [
                   "jp/management/playback",
                   "jp/management/play-from-timestamp",
@@ -130,6 +136,7 @@
               },
               {
                 "group": "共有とコラボレーション",
+                "hidden": true,
                 "pages": [
                   "jp/sharing/share-note",
                   "jp/sharing/download-data",
@@ -140,6 +147,7 @@
               },
               {
                 "group": "オンライン会議連携・録画Bot",
+                "hidden": true,
                 "pages": [
                   "jp/meetings/calendar-connection",
                   "jp/meetings/outlook-admin-consent",
@@ -156,6 +164,7 @@
               },
               {
                 "group": "アカウント設定・管理者機能",
+                "hidden": true,
                 "pages": [
                   "jp/admin/usage-details",
                   "jp/admin/audit-logs",
@@ -169,6 +178,7 @@
               },
               {
                 "group": "セキュリティとアクセス管理",
+                "hidden": true,
                 "pages": [
                   "jp/security/overview",
                   "jp/security/advanced-options-overview",
@@ -183,6 +193,7 @@
               },
               {
                 "group": "活用ガイド",
+                "hidden": true,
                 "pages": [
                   "jp/guides/finalize-ai-minutes",
                   "jp/guides/three-ways-minutes",
@@ -193,6 +204,7 @@
               },
               {
                 "group": "よくある質問",
+                "hidden": true,
                 "pages": [
                   "jp/faq/cannot-login",
                   "jp/faq/improve-accuracy",
@@ -207,6 +219,7 @@
               },
               {
                 "group": "リリースノート",
+                "hidden": true,
                 "pages": [
                   "jp/changelog/2025",
                   "jp/changelog/2024",
@@ -215,6 +228,7 @@
               },
               {
                 "group": "Rimo Interviewer（ベータ版）",
+                "hidden": true,
                 "pages": [
                   "jp/interviewer/create",
                   "jp/interviewer/answer",
@@ -233,6 +247,7 @@
           },
           {
             "tab": "API reference",
+            "hidden": true,
             "groups": [
               {
                 "group": "API documentation",
