@@ -270,14 +270,9 @@
         "global": {
           "anchors": [
             {
-              "anchor": "Documentation",
-              "href": "https://mintlify.com/docs",
+              "anchor": "Rakulogへ戻る",
+              "href": "https://app.rakulog.ai/meetings",
               "icon": "book-open-cover"
-            },
-            {
-              "anchor": "Blog",
-              "href": "https://mintlify.com/blog",
-              "icon": "newspaper"
             }
           ]
         }
