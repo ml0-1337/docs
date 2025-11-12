@@ -12,6 +12,10 @@
     "light": "/logo/light.webp",
     "dark": "/logo/dark.webp"
   },
+  "fonts": {
+  "heading": { "family": "Noto Serif JP" },
+  "body":    { "family": "Noto Sans JP" }
+},
   "navbar": {
     "links": [
       {
