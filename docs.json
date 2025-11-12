@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Rakulog 使い方マニュアル",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3C78C8",
+    "light": "#72AFE7",
+    "dark": "#2C5CA9"
   },
   "favicon": "/favicon.svg",
   "logo": {
