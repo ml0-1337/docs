@@ -1,97 +1,105 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Rakulog 使い方ガイド（法人向け）"
+description: "管理者とメンバーのためのRakulogドキュメント。はじめ方、アップロード、編集、共有、セキュリティ、運用ベストプラクティスを網羅。"
 ---
 
-## Setting up
+# ようこそ、Rakulog ドキュメントへ
 
-Get your documentation site up and running in minutes.
+<Note>
+  まずはキーボードショートカット <kbd>⌘K</kbd>
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+   / <kbd>Ctrl+K</kbd>
 
-## Make it yours
+   で検索できます。 分からないときは <a href="https://app.rakulog.ai/support" target="_blank">
+  お問い合わせ</a>
 
-Design a docs site that looks great and empowers your users.
+   からどうぞ。
+</Note>
 
 <Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
+  <Card title="管理者の開始ガイド" icon="settings" href="/jp/getting-started/admin-invite">
+    まずは管理者としての初期設定（招待承諾/メンバー招待/権限/セキュリティ）から。
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
+  <Card title="メンバーの開始ガイド" icon="user" href="/jp/getting-started/member-invite">
+    メンバー招待の承諾〜初回アップロードまでを短時間で。
   </Card>
 </Columns>
 
-## Create beautiful pages
+## 役割別クイックスタート
 
-Everything you need to create world-class documentation.
+<Tabs>
+  <Tab title="管理者">
+    - [ご利用開始（法人）](/jp/getting-started/enterprise-trial)
+    - [メンバー招待・権限](/jp/team/invite-remove)
+    - [セキュリティの基本](/jp/security/overview) ／ [SSO設定](/jp/security/microsoft-entra-sso)
+    - [監査ログ・明細確認](/jp/admin/audit-logs)
+  </Tab>
+  <Tab title="メンバー">
+    - [招待を承諾する](/jp/getting-started/member-invite)
+    - [ファイルをアップロード](/jp/transcription/upload-web) ／ [一括アップロード](/jp/transcription/bulk-upload)
+    - [文字起こしの編集](/jp/editing/edit-transcript) ／ [共有と共同編集](/jp/sharing/collab-editing)
+  </Tab>
+</Tabs>
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
+## はじめの3ステップ
+
+<Steps>
+  <Step title="サインイン">
+     管理者 or メンバーの招待メールからサインイン。 
+  </Step>
+   <Step title="アップロード">
+     会議の録音/動画をアップロードして自動解析。 
+  </Step>
+   <Step title="編集・共有">
+     文字起こしを整えて、ノートを共有/ダウンロード。 
+  </Step>
+</Steps>
+
+## よく使うページ
+
+<Columns cols={3}>
+  <Card title="ファイルをアップロード" icon="upload" href="/jp/transcription/upload-web">
+    
   </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
+  <Card title="編集の基本" icon="edit-3" href="/jp/editing/edit-transcript">
+    
   </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
+  <Card title="共有とコラボ" icon="share-2" href="/jp/sharing/collab-editing">
+    
   </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
+  <Card title="セキュリティ" icon="shield-check" href="/jp/security/overview">
+    
+  </Card>
+  <Card title="シングルサインオン（SSO）" icon="key" href="/jp/security/microsoft-entra-sso">
+    
+  </Card>
+  <Card title="監査ログ" icon="file-text" href="/jp/admin/audit-logs">
+    
+  </Card>
+  <Card title="辞書登録（精度向上）" icon="book-open" href="/jp/admin/custom-dictionary">
+    
+  </Card>
+  <Card title="よくある質問" icon="help-circle" href="/jp/faq/cannot-login">
+    
+  </Card>
+  <Card title="リリースノート" icon="history" href="/jp/changelog/2025">
+    
   </Card>
 </Columns>
 
-## Need inspiration?
+## 最新情報
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+<Update label="2025-11-01" description="UI改善">
+  ノート一覧の並べ替え/フィルタを改善しました。詳細は [リリースノート](/jp/changelog/2025) をご覧ください。
+</Update>
+
+<Update label="2025-10-15" description="セキュリティ">
+  SSO設定ガイドを拡充しました（Entra ID / HENNGE One / GMO Trust）。
+</Update>
+
+<Info>
+  製品の概要や価値は <a href="https://www.rakulog.ai/" target="_blank">
+  Rakulog 公式サイト</a>
+
+   も併せてご覧ください。
+</Info>
