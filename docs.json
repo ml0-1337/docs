@@ -59,14 +59,12 @@
               {
                 "group": "ご利用開始ガイド",
                 "pages": [
-                  "jp/index",
-                  "jp/quickstart",
                   "jp/getting-started/admin-invite",
                   "jp/getting-started/member-invite"
                 ]
               },
               {
-                "group": "ご利用開始ガイド（法人向け）",
+                "group": "ご利用開始ガイド（original）",
                 "hidden": true,
                 "pages": [
                   "jp/getting-started/enterprise-trial",
