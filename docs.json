@@ -13,9 +13,8 @@
     "dark": "/logo/dark.webp"
   },
   "fonts": {
-  "heading": { "family": "Noto Serif JP" },
-  "body":    { "family": "Noto Sans JP" }
-},
+    "family": "Noto Sans JP"
+  },
   "navbar": {
     "links": [
       {
