@@ -10,7 +10,7 @@
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.webp",
-    "dark": "/logo/dark.webp"
+    "dark": "/logo/dark.png"
   },
   "fonts": {
     "family": "Noto Sans JP"
