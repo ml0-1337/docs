@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Rakulog 使い方",
+  "name": "Rakulog 使い方マニュアル",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -16,7 +16,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@rakulog.ai"
       }
     ],
     "primary": {
@@ -53,11 +53,12 @@
             "tab": "Guides",
             "groups": [
               {
-                "group": "Getting started",
+                "group": "基本的な使い方",
                 "pages": [
                   "jp/index",
                   "jp/quickstart",
-                  "jp/development"
+                  "jp/development",
+                  "jp/create-meeting-notes"
                 ]
               },
               {
