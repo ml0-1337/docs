@@ -28,14 +28,6 @@
       "href": "https://app.rakulog.ai/meetings"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "mcp"
-    ]
-  },
   "navigation": {
     "languages": [
       {
