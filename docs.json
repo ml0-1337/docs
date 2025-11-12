@@ -39,15 +39,15 @@
         "language": "jp",
         "tabs": [
           {
-            "tab": "Guides",
+            "tab": "ガイド",
             "groups": [
               {
-                "group": "基本的な使い方",
+                "group": "ご利用開始ガイド",
                 "pages": [
                   "jp/index",
                   "jp/quickstart",
-                  "jp/development",
-                  "jp/create-meeting-notes"
+                  "jp/getting-started/admin-invite",
+                  "jp/getting-started/member-invite"
                 ]
               },
               {
