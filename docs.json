@@ -15,14 +15,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@rakulog.ai"
+        "label": "お問い合わせ",
+        "href": "https://app.rakulog.ai/support"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Rakulogへ戻る",
+      "href": "https://app.rakulog.ai/meetings"
     }
   },
   "contextual": {
