@@ -51,8 +51,7 @@
               {
                 "group": "ご利用開始ガイド",
                 "pages": [
-                  "jp/getting-started/admin-invite",
-                  "jp/getting-started/member-invite"
+                  "jp/getting-started/admin-invite"
                 ]
               },
               {
@@ -61,8 +60,7 @@
                 "pages": [
                   "jp/getting-started/enterprise-trial",
                   "jp/getting-started/convert-to-paid",
-                  "jp/getting-started/admin-invite",
-                  "jp/getting-started/member-invite"
+                  "jp/getting-started/admin-invite"
                 ]
               },
               {
@@ -279,22 +277,73 @@
     ]
   },
   "redirects": [
-    { "source": "/index", "destination": "/jp" },
-    { "source": "/quickstart", "destination": "/jp/quickstart" },
-    { "source": "/development", "destination": "/jp/development" },
-    { "source": "/essentials/settings", "destination": "/jp/essentials/settings" },
-    { "source": "/essentials/navigation", "destination": "/jp/essentials/navigation" },
-    { "source": "/essentials/markdown", "destination": "/jp/essentials/markdown" },
-    { "source": "/essentials/code", "destination": "/jp/essentials/code" },
-    { "source": "/essentials/images", "destination": "/jp/essentials/images" },
-    { "source": "/essentials/reusable-snippets", "destination": "/jp/essentials/reusable-snippets" },
-    { "source": "/ai-tools/cursor", "destination": "/jp/ai-tools/cursor" },
-    { "source": "/ai-tools/claude-code", "destination": "/jp/ai-tools/claude-code" },
-    { "source": "/ai-tools/windsurf", "destination": "/jp/ai-tools/windsurf" },
-    { "source": "/api-reference/introduction", "destination": "/jp/api-reference/introduction" },
-    { "source": "/api-reference/endpoint/get", "destination": "/jp/api-reference/endpoint/get" },
-    { "source": "/api-reference/endpoint/create", "destination": "/jp/api-reference/endpoint/create" },
-    { "source": "/api-reference/endpoint/delete", "destination": "/jp/api-reference/endpoint/delete" },
-    { "source": "/api-reference/endpoint/webhook", "destination": "/jp/api-reference/endpoint/webhook" }
+    {
+      "source": "/index",
+      "destination": "/jp"
+    },
+    {
+      "source": "/quickstart",
+      "destination": "/jp/quickstart"
+    },
+    {
+      "source": "/development",
+      "destination": "/jp/development"
+    },
+    {
+      "source": "/essentials/settings",
+      "destination": "/jp/essentials/settings"
+    },
+    {
+      "source": "/essentials/navigation",
+      "destination": "/jp/essentials/navigation"
+    },
+    {
+      "source": "/essentials/markdown",
+      "destination": "/jp/essentials/markdown"
+    },
+    {
+      "source": "/essentials/code",
+      "destination": "/jp/essentials/code"
+    },
+    {
+      "source": "/essentials/images",
+      "destination": "/jp/essentials/images"
+    },
+    {
+      "source": "/essentials/reusable-snippets",
+      "destination": "/jp/essentials/reusable-snippets"
+    },
+    {
+      "source": "/ai-tools/cursor",
+      "destination": "/jp/ai-tools/cursor"
+    },
+    {
+      "source": "/ai-tools/claude-code",
+      "destination": "/jp/ai-tools/claude-code"
+    },
+    {
+      "source": "/ai-tools/windsurf",
+      "destination": "/jp/ai-tools/windsurf"
+    },
+    {
+      "source": "/api-reference/introduction",
+      "destination": "/jp/api-reference/introduction"
+    },
+    {
+      "source": "/api-reference/endpoint/get",
+      "destination": "/jp/api-reference/endpoint/get"
+    },
+    {
+      "source": "/api-reference/endpoint/create",
+      "destination": "/jp/api-reference/endpoint/create"
+    },
+    {
+      "source": "/api-reference/endpoint/delete",
+      "destination": "/jp/api-reference/endpoint/delete"
+    },
+    {
+      "source": "/api-reference/endpoint/webhook",
+      "destination": "/jp/api-reference/endpoint/webhook"
+    }
   ]
 }
